@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="one" onclick="funct(this)">
+        Hai hellooo How are You ddada ssdfsdf dsddd fwfe
+    </p>
+    <button onclick="myfunc(this)">click</button>
+    <h2 onmouseover="changec(this)" onmouseout="achange(this)">This is Java</h2>
+    <h1 onclick="color(this)">gfgfcfcg</h1>
+    <script>
+        function color(x) {
+            x.style.color = "red";
+        }
+
+        function changec(x) {
+            x.style.color = "red";
+
+        }
+
+        function achange(y) {
+            y.style.color = "black";
+
+        }
+
+        function funct(f) {
+            alert(
+                "haaai"
+            );
+        }
+
+        function myfunc() {
+            document.getElementById("one").innerHTML = "Text changed";
+        }
+    </script>
+
+
+</body>
+
+</html>
